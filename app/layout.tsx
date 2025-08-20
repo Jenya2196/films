@@ -33,7 +33,7 @@ export default function RootLayout({
           {/* Header */}
           <Header />
 
-          {/* Контент - растягивается при необходимости */}
+          {/* main */}
           <main className="flex-grow flex flex-col items-center gap-2">
             {children}
           </main>
